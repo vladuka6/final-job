@@ -70,3 +70,14 @@
 
 .ba-text-justify {
   text-align: justify; }
+
+/*style.css*/
+
+.ba-menu {
+  display: flex;
+  align-items: center;
+  list-style: none; }
+
+.ba-menu-link {
+  color: inherit;
+  text-decoration: none; }
