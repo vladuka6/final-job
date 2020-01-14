@@ -1,102 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/app.css">
+    <!-- <link rel="stylesheet" href="styles/layout.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
     <title>Ba-starter</title>
 </head>
+
 <body>
     <!----------HEADER START---------->
     <header class="ba-header">
-        <div class="container">
-            <div class="ba-header-wrapper">
-            <h1 class="ba-logo">
-                <a href="" class="ba-logo__link">akad.</a>
-            </h1>
-            
-            <nav hidden>
+        <div class="ba-header-wrapper">
+            <div class="ba-logo">
+                <img class="ba-logo__link" src="img/logo.png" alt="Logo">
+            </div>
+            <nav class="ba-nav">
                 <ul class="ba-menu">
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link"></a>item1</li>
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link"></a>item2</li>
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link"></a>item3</li>
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link"></a>item4</li>
+                    <li class="ba-menu__item"><a href="" class="ba-menu__link">Home</a></li>
+                    <li class="ba-menu__item"><a href="" class="ba-menu__link">What We Offer</a></li>
+                    <li class="ba-menu__item"><a href="" class="ba-menu__link">Gallery</a></li>
+                    <li class="ba-menu__item"><a href="" class="ba-menu__link">About Us </a></li>
+                    <li class="ba-menu__item"><a href="" class="ba-menu__link">Testimonials </a></li>
+                    <li class="ba-menu__item"><a href="" class="ba-menu__link">Contact Us</a></li>
                 </ul>
             </nav>
-            <button class="ba-menu-btn" aria-label="open menu">
-                <span class="ba-menu-btn__line"></span>
-                <span class="ba-menu-btn__line"></span>
-                <span class="ba-menu-btn__line"></span>
-            </button>
-        </div>
+            <div class="ba-header__social social">
+                <div class="social__item">
+                    <a href="" class="social__link">
+                        <i class="fab fa-facebook-f">
+                        </i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="" class="social__link"><i class="fab fa-twitter">
+                        </i>
+                    </a>
+                </div>
+                <div class="social__item">
+                    <a href="" class="social__link">
+                        <i class="fab fa-instagram">
+                        </i>
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
     <!----------HEADER END---------->
     <main class="ba-info">
         <!----------BA-HERO START---------->
-        <section class="ba-section ba-hero">
+        <section class="ba-hero">
             <div class="container">
-            <div class="ba-hero-wrapper">
-                <h2 class="ba-hero__tittle">About us</h2>
-                <div class="ba-hero__breadcrumbs">
-                    <nav>
-                        <ul class="ba-breadcrumbs">
-                            <li class="ba-breadcrumbs__item">
-                                <a href="#" class="ba-breadcrumbs__link"></a>
-                            </li>
-                            <li class="ba-breadcrumbs__item">
-                                <a href="#" class="ba-breadcrumbs__link"></a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="title">
+                    <h3 class="title__name">SKI & SNOWBOARD school </h3>
+                    <h1 class="title__bigname">Stay & Ski</h1>
+                    <p class="title__about">The countdown to ski season has begun! So,
+                        it is high time to impove your skills to have maximum fun this winter</p>
+                    <button class="title-button"><a href="" class="title-button__link">Online booking</a></button>
                 </div>
-            </div>
+                <div class="boarder-picture">
+                    <img src="img/boarder.png" alt="boarder" class="boarder-picture__img">
+                </div>
             </div>
         </section>
         <!----------BA-HERO END---------->
-        <section class="ba-about">
+
+        <!----------BENEFITS START---------->
+        <section class="benefits">
             <div class="container">
+                <div class="benefits-title">
+                    <h2 class="benefits-title__name">
+                        WHAT WE OFFER
+                    </h2>
+                    <p class="benefits-title__text">
+                        Skiing and snowboarding still rank among the undisputed winter
+                        Skiing and snowboarding still rank among the undisputed winter
+                        Skiing and snowboarding still rank among the undisputed winter
+                        Skiing and snowboarding still rank among the undisputed winter
+                    </p>
+                </div>
+
                 <div class="ba-row">
-                    <div class="ba-col-6">
-                        <div class="ba-info-block">
-                            <h2 class="ba-info-tittle">fkkfkkfk ffff
-
-                            </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quia dolorum quibusdam iste natus provident, sint consectetur ad? 
-                            Ullam autem explicabo impedit velit quaerat ducimus commodi minus non nulla est. Provident.
-
-                            </p>
+                    <div class="ba-col-4">
+                        <div class="features">
+                            <div class="img-wrapper">
+                                <img src="img/multipicture1.png" alt="picture" class="features__img">
+                            </div>
+                            <h4 class="features__options">
+                                NEW TO SKIING?
+                            </h4>
+                            <h3 class="features__name">
+                                PRIVATE LESSONS FOR BEGINNERS
+                            </h3>
+                            <button class="button">
+                                <a href="" class="button__link">FROM $250</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="features">
+                            <div class="img-wrapper">
+                                <img src="img/multipicture2.png" alt="picture" class="features__img">
+                            </div>
+                            <h4 class="features__options">
+                                NEW TO SKIING?
+                            </h4>
+                            <h3 class="features__name">
+                                PRIVATE LESSONS FOR BEGINNERS
+                            </h3>
+                            <button class="button">
+                                <a href="" class="button__link">FROM $250</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="features">
+                            <div class="img-wrapper">
+                                <img src="img/multipicture3.png" alt="picture" class="features__img">
+                            </div>
+                            <h4 class="features__options">
+                                NEW TO SKIING?
+                            </h4>
+                            <h3 class="features__name">
+                                PRIVATE LESSONS FOR BEGINNERS
+                            </h3>
+                            <button class="button">
+                                <a href="" class="button__link">FROM $250</a>
+                            </button>
 
                         </div>
                     </div>
-                    <div class="ba-col-6">
-                            <div class="ba-info-block">
-                                <h2 class="ba-info-tittle">fkkfkkfk ffff
-    
-                                </h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Quia dolorum quibusdam iste natus provident, sint consectetur ad? 
-                                Ullam autem explicabo impedit velit quaerat ducimus commodi minus non nulla est. Provident.
-    
-                                </p>
-                                
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </section>
+<!----------BENEFITS END---------->
+
+
+        <section class="ba-gallery section-size">
+            <div class="gallery-wrapper">
+                <img src="img/gallery1.jpg" class="gallery-wrapper__img">
+                <img src="img/gallery4.jpg" alt="" class="gallery-wrapper__img">
+            </div>
+            <div class="gallery-wrapper">
+                <img src="img/gallery2.jpg" alt="" class="gallery-wrapper__img">
+                <img src="img/gallery5.jpg" alt="" class="gallery-wrapper__img">
+                <img src="img/gallery6.jpg" alt="" class="gallery-wrapper__img">
+            </div>
+            <div class="gallery-wrapper">
+                <img src="img/gallery3.jpg" alt="" class="gallery-wrapper__img">
+                <img src="img/gallery7.jpg" alt="" class="gallery-wrapper__img">
+            </div>
+        </section>
+        <div class="ba-crew">
+            <div class="container">
+                <h2 class="ba-crew__title">
+                    MEET OUR CREW
+                </h2>
+                <div class="ba-row">
+                    <div class="ba-col-3 members">
+                        <img src="img/crew1.jpg" alt="" class="members__img">
+                        <h5 class="members__instructor">instructor</h5>
+                        <h6 class="members__name">Jamie Garcia</h6>
+                    </div>
+                    <div class="ba-col-3 members">
+                        <img src="img/crew2.jpg" alt="" class="members__img">
+                        <h5 class="members__instructor">instructor</h5>
+                        <h6 class="members__name">JAMES BILLINGS</h6>
+                    </div>
+                    <div class="ba-col-3 members">
+                        <img src="img/crew3.jpg" alt="" class="members__img">
+                        <h5 class="members__instructor">instructor</h5>
+                        <h6 class="members__name">PETER COLINS</h6>
+                    </div>
+                    <div class="ba-col-3 members">
+                        <img src="img/crew4.jpg" alt="" class="members__img">
+                        <h5 class="members__instructor">instructor</h5>
+                        <h6 class="members__name">Amanda Lee</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="about-school">
+            <div class="container">
+                <h2 class="about-school__title">
+                    MOUNTAIN SNOWBOARD SCHOOL
+                </h2>
+                <p class="about-school__text">
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                </p>
+                <p class="about-school__text">
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                    We’re not saying Snow Mountain has special powers, but a lot of
+                </p>
+                <div class="about-school-wrapper">
+                    <span class="about-school__amount">1600</span>
+                    <h6 class="about-school__quantity">
+                        HAPPY CLIENTS
+                    </h6>
+                </div>
+                <div class="about-school-wrapper">
+                    <span class="about-school__amount">18</span>
+                    <h6 class="about-school__quantity">
+                        PROFESSIONAL AWARDS
+                    </h6>
+                </div>
+                <div class="about-school-wrapper">
+                    <span class="about-school__amount">213</span>
+                    <h6 class="about-school__quantity">
+                        REACHED TOPS
+                    </h6>
                 </div>
             </div>
         </section>
     </main>
-     <!----------FOOTER START---------->
-    <footer class="ba-footer">
+    <!----------FOOTER START---------->
+    <!-- <footer class="ba-footer">
         <div class="container">
 
         </div>
-    </footer>
+    </footer> -->
     <!----------FOOTER END---------->
 </body>
+
 </html>
